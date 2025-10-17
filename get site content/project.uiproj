@@ -1,0 +1,6 @@
+{
+  "Name": "get site content",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}
