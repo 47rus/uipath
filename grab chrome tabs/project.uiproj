@@ -1,0 +1,6 @@
+{
+  "Name": "grab chrome tabs",
+  "ProjectType": "Process",
+  "Description": "get active (or all open tabs) in chrome and send tem to webhook",
+  "MainFile": "Main.xaml"
+}

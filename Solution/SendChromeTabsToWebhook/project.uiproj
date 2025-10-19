@@ -1,0 +1,6 @@
+{
+  "ProjectType": "Process",
+  "Name": "SendChromeTabsToWebhook",
+  "Description": "when ctrl+alt+j pushed on a local machine (Windows 11),\r\nget all opened tabs in Chrome browser (already opened) and send data to webhook to webhook https://n8n.flowmasters.fi/webhook-test/aa045bea-0acf-444d-a726-0244fe0b60f6, one POST request for every opened page, format:\r\n{\r\n  \"url\":\"{weblonk of the page\",\r\n  \"content\":\"{full raw page content}\"\r\n}\r\n\r\n# to avoid errors in JSON format, use either Formpart or Stringify",
+  "MainFile": "Main.xaml"
+}

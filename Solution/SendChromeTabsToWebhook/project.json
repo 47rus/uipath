@@ -1,0 +1,61 @@
+{
+  "name": "SendChromeTabsToWebhook",
+  "projectId": "f0bbb7cb-b0eb-4583-b1d4-10bc6766800f",
+  "description": "when ctrl+alt+j pushed on a local machine (Windows 11),\r\nget all opened tabs in Chrome browser (already opened) and send data to webhook to webhook https://n8n.flowmasters.fi/webhook-test/aa045bea-0acf-444d-a726-0244fe0b60f6, one POST request for every opened page, format:\r\n{\r\n  \"url\":\"{weblonk of the page\",\r\n  \"content\":\"{full raw page content}\"\r\n}\r\n\r\n# to avoid errors in JSON format, use either Formpart or Stringify",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.IntegrationService.Activities": "1.18.0",
+    "UiPath.System.Activities": "25.10.2",
+    "UiPath.UIAutomation.Activities": "25.10.16",
+    "UiPath.WebAPI.Activities": "2.3.0"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.11.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "0e814159-37cf-449b-b78a-ae0cf8cd4037",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Portable"
+}

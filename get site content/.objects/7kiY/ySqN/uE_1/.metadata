@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Chrome",
+  "Type": "Screen",
+  "Id": "uE_1RVaAuEqrRZZrsbQ0vQ",
+  "Reference": "QmbE1Tl4X0iM5_IsZMTcEQ/uE_1RVaAuEqrRZZrsbQ0vQ",
+  "ParentRef": "QmbE1Tl4X0iM5_IsZMTcEQ/ySqNybLIqEC3mwPTLi9whw",
+  "Created": "2025-10-17T21:54:18.3654401Z",
+  "Updated": "2025-10-17T22:50:48.0196022Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Chrome Google Gemini",
+  "Type": "App",
+  "Id": "7kiY6cHxgk6kyaMYKRnv5w",
+  "Reference": "QmbE1Tl4X0iM5_IsZMTcEQ/7kiY6cHxgk6kyaMYKRnv5w",
+  "Created": "2025-10-17T14:51:33.591362Z",
+  "Updated": "2025-10-17T21:58:59.6481657Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

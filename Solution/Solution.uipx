@@ -1,0 +1,12 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "00d4dd29-fa69-4df2-a75d-08de0b361a30",
+  "Projects": [
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "SendChromeTabsToWebhook/project.uiproj",
+      "Id": "ca6514b2-6ec1-4903-85cc-9e458add8da9"
+    }
+  ]
+}

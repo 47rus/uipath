@@ -1,0 +1,85 @@
+{
+  "dto": {
+    "id": "00d4dd29-fa69-4df2-a75d-08de0b361a30",
+    "name": "Solution",
+    "lastModifiedTime": "2025-10-17T20:56:30.7910482Z",
+    "projects": [
+      {
+        "id": "f0bbb7cb-b0eb-4583-b1d4-10bc6766800f",
+        "designId": "ca6514b2-6ec1-4903-85cc-9e458add8da9",
+        "solutionId": "00d4dd29-fa69-4df2-a75d-08de0b361a30",
+        "expressionLanguage": "VisualBasic",
+        "projectType": "Process",
+        "name": "SendChromeTabsToWebhook",
+        "description": "when ctrl\u002Balt\u002Bj pushed on a local machine (Windows 11),\r\nget all opened tabs in Chrome browser (already opened) and send data to webhook to webhook https://n8n.flowmasters.fi/webhook-test/aa045bea-0acf-444d-a726-0244fe0b60f6, one POST request for every opened page, format:\r\n{\r\n  \u0022url\u0022:\u0022{weblonk of the page\u0022,\r\n  \u0022content\u0022:\u0022{full raw page content}\u0022\r\n}\r\n\r\n# to avoid errors in JSON format, use either Formpart or Stringify",
+        "lastModifiedTime": "2025-10-17T20:56:30.572172Z",
+        "creationTime": "2025-10-17T20:36:50.28173Z",
+        "userId": "e1cb74c7-4240-4043-851e-b87679fab8f8",
+        "dependencies": [],
+        "hasTrigger": false,
+        "disableAutoUpdate": false
+      }
+    ]
+  },
+  "folderSnapshot": {
+    "filesHash": {
+      "SolutionStorage.json": "LTdk8h0e37urQyGnE/lemlS05/3iysJ6bXChoI5CDVw=",
+      "SendChromeTabsToWebhook/.project/PackageBindingsMetadata.json": "cRFmdDQY3uotDTh6/F26nRJW\u002BLP/I6ZL3GuZBj9umeo=",
+      "SendChromeTabsToWebhook/.objects/.type": "3CCz1dLN34L60zKCHKXppO/c7eSic6oZPStJW9zJKCU=",
+      "SendChromeTabsToWebhook/entry-points.json": "airrTtHV2tiqRuj\u002BRbUOOeUUezIimFZS1DQmO8ursYk=",
+      "SendChromeTabsToWebhook/project.uiproj": "8g1MqMiQP/6eZ7V98tuYbtyWv6hv3f07OY6hzRxD\u002BhU=",
+      "SendChromeTabsToWebhook/.settings/Release/settings-5190454b.json": "6YbJEGlS4NdvIRWf2z\u002BSTwg5MX\u002BEyKszsd0Ex9SagVw=",
+      "SendChromeTabsToWebhook/.screenshots/f9d570e043f9f4473b04b856644466df.png": "Gdd8EtENi8BJsqovmMIrLOdWKRCn7rFLUdhuivgxIDE=",
+      "SendChromeTabsToWebhook/Main.xaml": "iWsP/8QXSZO0E2Jp6zjaIO/HDaTFyepAHGA8eBxzvGc=",
+      "SendChromeTabsToWebhook/.screenshots/a3e8f11c494bfe13d7ef564fe82a6f8c.png": "h8gf1lJrZSflijPamcquxJ6Odo\u002BR7\u002BcxTj\u002BTSTAg2M8=",
+      "SendChromeTabsToWebhook/project.json": "dQk3P3s4A0UzNa3KAai1iYCViREKP98WN11KMlpZOZ4=",
+      "SendChromeTabsToWebhook/.settings/Design/settings-a1b2dac1.json": "o2EjraZK5Twwz6qRNj71lj\u002BZ0cVJJ\u002BB/Bp9VMpnDzFI=",
+      "solutionResourcesDefinition.json": "W5znLucF3mfAetBfyS4E4FW8Btgf0TjlZpiikudqVZE=",
+      "SendChromeTabsToWebhook/.settings/Release/settings-a1b2dac1.json": "1rgsTK\u002B6NQ\u002BPwPuCA\u002BEBO5CRgU9Ll3GE6CFo9UZKctY=",
+      "SendChromeTabsToWebhook/.screenshots/e18f913d23cb6f88e218224cbc7024cc.png": "FNmrx/pF2enRDy0DLhp0wKIg1ZTR4ZTNzviXbkNgymg=",
+      "Solution.uipx": "Xvkra4gOgTGNOT\u002B/lJkvTraD/m2kKCk2/YVwtcxRoiA=",
+      "SendChromeTabsToWebhook/.settings/Debug/settings-a1b2dac1.json": "1rgsTK\u002B6NQ\u002BPwPuCA\u002BEBO5CRgU9Ll3GE6CFo9UZKctY=",
+      "SendChromeTabsToWebhook/.objects/.metadata": "inr8Wgi1Itnb/hURdHR0hzt9VecEkQMl2TrqkYmMFTE=",
+      "SendChromeTabsToWebhook/.tmh/config.json": "h46eoezYT8wW99FSCp0OgQA/hsoWiFWwsBjpoTDPcZg=",
+      "SendChromeTabsToWebhook/.project/JitCustomTypes.json": "YM1A6ccXSFYyBeG9gJucJt8cs/BE50eDc7\u002BK4Kpzwys=",
+      "SendChromeTabsToWebhook/.settings/Debug/settings-5190454b.json": "6YbJEGlS4NdvIRWf2z\u002BSTwg5MX\u002BEyKszsd0Ex9SagVw="
+    },
+    "relativeFilesPaths": [
+      "SolutionStorage.json",
+      "SendChromeTabsToWebhook/.project/PackageBindingsMetadata.json",
+      "SendChromeTabsToWebhook/.objects/.type",
+      "SendChromeTabsToWebhook/entry-points.json",
+      "SendChromeTabsToWebhook/project.uiproj",
+      "SendChromeTabsToWebhook/.settings/Release/settings-5190454b.json",
+      "SendChromeTabsToWebhook/.screenshots/f9d570e043f9f4473b04b856644466df.png",
+      "SendChromeTabsToWebhook/Main.xaml",
+      "SendChromeTabsToWebhook/.screenshots/a3e8f11c494bfe13d7ef564fe82a6f8c.png",
+      "SendChromeTabsToWebhook/project.json",
+      "SendChromeTabsToWebhook/.settings/Design/settings-a1b2dac1.json",
+      "solutionResourcesDefinition.json",
+      "SendChromeTabsToWebhook/.settings/Release/settings-a1b2dac1.json",
+      "SendChromeTabsToWebhook/.screenshots/e18f913d23cb6f88e218224cbc7024cc.png",
+      "Solution.uipx",
+      "SendChromeTabsToWebhook/.settings/Debug/settings-a1b2dac1.json",
+      "SendChromeTabsToWebhook/.objects/.metadata",
+      "SendChromeTabsToWebhook/.tmh/config.json",
+      "SendChromeTabsToWebhook/.project/JitCustomTypes.json",
+      "SendChromeTabsToWebhook/.settings/Debug/settings-5190454b.json"
+    ],
+    "relativeFoldersPaths": [
+      "ResourceFiles",
+      "SendChromeTabsToWebhook",
+      "SendChromeTabsToWebhook/.entities",
+      "SendChromeTabsToWebhook/.objects",
+      "SendChromeTabsToWebhook/.project",
+      "SendChromeTabsToWebhook/.screenshots",
+      "SendChromeTabsToWebhook/.settings",
+      "SendChromeTabsToWebhook/.settings/Debug",
+      "SendChromeTabsToWebhook/.settings/Design",
+      "SendChromeTabsToWebhook/.settings/Release",
+      "SendChromeTabsToWebhook/.templates",
+      "SendChromeTabsToWebhook/.tmh",
+      "userProfile"
+    ]
+  }
+}
